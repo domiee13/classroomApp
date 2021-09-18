@@ -7,9 +7,6 @@
   <title>Document</title>
 </head>
 <body>
-  @foreach($users as $user)
-  {{$user->id}}
-  {{$user->fullname}}
-  @endforeach
+  {{$users}}
 </body>
 </html>
