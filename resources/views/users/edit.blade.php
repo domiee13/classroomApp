@@ -1,3 +1,4 @@
+<!-- View user's profile and send message  -->
 @extends('layouts.app')
 
 @section('title')
