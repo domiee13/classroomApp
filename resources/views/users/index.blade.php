@@ -41,7 +41,7 @@
 						</td>
 						<td>
 							<a href="/users/{{$user->id}}" class="btn btn-success">View details</a>
-							<a href="" class="btn btn-primary">Edit</a>
+							<a href="/users/edit/{{$user->id}}" class="btn btn-primary">Edit</a>
 							<a href="" class="btn btn-danger">Delete</a>
 						</td>
 					</tr>
