@@ -29,3 +29,4 @@ Route::get('/users/edit/{user_id}','App\Http\Controllers\UserController@editUser
 Route::get('/mess', 'App\Http\Controllers\MessageController@getAll');
 
 Route::get('/challenges','App\Http\Controllers\ChallengeController@index');
+Route::get('/assignments','App\Http\Controllers\AssignmentController@index');
