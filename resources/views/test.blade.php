@@ -7,6 +7,7 @@
   <title>Document</title>
 </head>
 <body>
+  {{$users}}
   @foreach($users as $user)
   {{$user->id}}
   {{$user->fullname}}
