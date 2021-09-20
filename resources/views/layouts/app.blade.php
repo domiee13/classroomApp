@@ -122,6 +122,12 @@
         </a>
       </li>
       <li>
+        <a href="/messages" class="nav-link text-white">
+          <svg class="bi me-2" width="16" height="16"><use xlink:href="#chat-quote-fill"/></svg>
+          Message
+        </a>
+      </li>
+      <li>
         <a href="/assignments" class="nav-link text-white">
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
           Assignments

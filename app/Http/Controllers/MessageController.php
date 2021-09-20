@@ -14,4 +14,8 @@ class MessageController extends Controller
         // return view('mess', ['$messages' => $messages]);//Failure
         return view('mess', ['messages' => $messages]);
     }
+    function index(){
+        $messages = Message::where('id_recv','=',1)->get();
+        return view('messages.index',compact('messages', $messages));
+    }
 }

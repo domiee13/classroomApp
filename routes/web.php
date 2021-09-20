@@ -30,3 +30,5 @@ Route::get('/mess', 'App\Http\Controllers\MessageController@getAll');
 
 Route::get('/challenges','App\Http\Controllers\ChallengeController@index');
 Route::get('/assignments','App\Http\Controllers\AssignmentController@index');
+
+Route::get('/messages', 'App\Http\Controllers\MessageController@index');
