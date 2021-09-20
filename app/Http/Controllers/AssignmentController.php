@@ -10,6 +10,6 @@ class AssignmentController extends Controller
     //
     public function index(){
         $assignments = Assignment::all();
-        return view('assignments.index',['assignments' => $assignments]);
+        return view('assignments.admin',['assignments' => $assignments]);
     }
 }
